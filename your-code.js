@@ -1,0 +1,6 @@
+prompt('How many hours do you commit to coding this week?')
+var committed = prompt('How many hours do you commit to coding this week?')
+prompt('How many hours have you coded so far?')
+var completed = prompt('How many hours have you coded so far?')
+var difference = Number(committed) - Number(completed)
+console.log('Keep up the great work'+'!'+' You only have '+ difference +' hours left to go'+'!')
